@@ -10,6 +10,12 @@ Installation Instructions
 4. Build the Userspace Logging Tool
 5. Enable Logging and Test
 
+## Development Environment
+ * Ubuntu 14.04.4
+ * Matlab
+ * Arduino
+ * C, Python(version 3.6.5)
+
 ## Additional installation(After step 5.Enable Logging and Test)
 ```bash
 sudo ifconfig wlan0 up & sudo ifconfig eth0 up
