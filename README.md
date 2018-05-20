@@ -2,9 +2,16 @@
 
 You can find a way to install intel 5300 nic(Linux 802.11n CSI Tool) at https://dhalperi.github.io/linux-80211n-csitool/installation.html
 
+intel 5300 nic (Linux 802.11n CSI Tool) have restrictions
+* Only Linux
+* Linux kernel version between 3.2 (e.g. Ubuntu 12.04) and 4.2 (e.g. Ubuntu 14.04.4)
+* High Throughput (802.11n) bitrates
+* Doesn't the CSI tool work for encrypted access points(WEP/WPA/WPA2/etc. networks)
+
+
 ## Development Environment
  * Ubuntu 14.04.4
- * Matlab
+ * Matlab (install signal processing toolbox)
  * Arduino
  * C, Python(version 3.6.5)
 
@@ -33,7 +40,6 @@ sudo ./log_to_server <ip> <port>  (ip address can get ifconfig)
 cd linux-80211n-csitool-supplementary/matlab matlab
 Run read_socket.m
 ```
-
 
 ## Reference Implementations 
 * https://github.com/dhalperi/linux-80211n-csitool-supplementary/issues/234
