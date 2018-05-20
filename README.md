@@ -2,7 +2,7 @@
 
 You can find a way to install intel 5300 nic(Linux 802.11n CSI Tool) at https://dhalperi.github.io/linux-80211n-csitool/installation.html
 
-## Additional ㅑnstallation(After step 5)
+## Additional installation(After step 5.Enable Logging and Test)
 ```bash
 sudo ifconfig wlan0 up & sudo ifconfig eth0 up
 sudo iwlist wlan0 scanning | grep ESSID
