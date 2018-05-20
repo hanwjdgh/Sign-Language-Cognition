@@ -15,3 +15,15 @@ echo 0x420A | sudo tee /sys/kernel/debug/ieee80211/phy0/netdev:wlan0/stations/Ma
 sudo iwconfig wlan0 essid "AP"
 sudo dhclient wlan0
 ```
+
+## Open socket using log_to_server.c
+```bash
+cd linux-80211n-csitool-supplementary/netlink
+sudo ./log_to_server <ip> <port>  (ip address can get ifconfig)
+```
+
+## Read socket using read_socket.m
+```bash
+cd linux-80211n-csitool-supplementary/matlab matlab
+Run read_socket.m
+```
