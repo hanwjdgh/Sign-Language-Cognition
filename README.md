@@ -2,7 +2,7 @@
 
 You can find a way to install intel 5300 nic(Linux 802.11n CSI Tool) at https://dhalperi.github.io/linux-80211n-csitool/installation.html
 
-intel 5300 nic (Linux 802.11n CSI Tool) have restrictions
+intel 5300 nic (Linux 802.11n CSI Tool) has restrictions
 * Only Linux
 * Linux kernel version between 3.2 (e.g. Ubuntu 12.04) and 4.2 (e.g. Ubuntu 14.04.4)
 * High Throughput (802.11n) bitrates
