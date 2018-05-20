@@ -2,14 +2,6 @@
 
 You can find a way to install intel 5300 nic(Linux 802.11n CSI Tool) at https://dhalperi.github.io/linux-80211n-csitool/installation.html
 
-Installation Instructions
-
-1. Prerequisites
-2. Build and Install the Modified Wireless Driver
-3. Install the Modified Firmware
-4. Build the Userspace Logging Tool
-5. Enable Logging and Test
-
 ## Development Environment
  * Ubuntu 14.04.4
  * Matlab
