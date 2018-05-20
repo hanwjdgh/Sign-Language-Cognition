@@ -2,6 +2,14 @@
 
 You can find a way to install intel 5300 nic(Linux 802.11n CSI Tool) at https://dhalperi.github.io/linux-80211n-csitool/installation.html
 
+Installation Instructions
+
+1. Prerequisites
+2. Build and Install the Modified Wireless Driver
+3. Install the Modified Firmware
+4. Build the Userspace Logging Tool
+5. Enable Logging and Test
+
 ## Additional installation(After step 5.Enable Logging and Test)
 ```bash
 sudo ifconfig wlan0 up & sudo ifconfig eth0 up
@@ -27,3 +35,8 @@ sudo ./log_to_server <ip> <port>  (ip address can get ifconfig)
 cd linux-80211n-csitool-supplementary/matlab matlab
 Run read_socket.m
 ```
+
+
+## Reference Implementations 
+* https://github.com/dhalperi/linux-80211n-csitool-supplementary/issues/234
+* https://github.com/lubingxian/Realtime-processing-for-csitool
